@@ -9,7 +9,7 @@ curl -fsSL https://deno.land/install.sh | sh && curl https://raw.githubuserconte
 Add this to your `Makefile`
 ```Makefile
 watch:
-	@deno run --allow-read --allow-run ~/watchgcc.js $$(pwd)
+	@~/.deno/bin/deno run --allow-read --allow-run ~/watchgcc.js $$(pwd)
 run: all
 	launch the executable
 ```
