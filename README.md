@@ -6,7 +6,7 @@ Install `deno` and `gccwatcher`:
 curl -fsSL https://deno.land/install.sh | sh && curl https://raw.githubusercontent.com/matubu/gccwatcher/main/gccwatcher.js > ~/gccwatcher.js
 ```
 
-Add this to your `Makefile`
+Add this to your `Makefile`:
 ```Makefile
 watch:
 	@~/.deno/bin/deno run --allow-read --allow-run ~/gccwatcher.js $$(pwd)
