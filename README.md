@@ -11,5 +11,5 @@ Add this to your `Makefile`:
 watch:
 	@~/.deno/bin/deno run --allow-read --allow-run ~/gccwatcher.js $$(pwd)
 run: all
-	launch the executable
+	[... launch the executable]
 ```
