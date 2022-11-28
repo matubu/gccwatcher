@@ -1,5 +1,5 @@
 # gccwatcher
-Watch change in `.c` `.cpp` `.h` `.hpp` and `Makefile` and will recompile and relauch the executable using the `run command` from your `Makefile`
+Watch change in `.c` `.cpp` `.h` `.hpp` and `Makefile` and will recompile and relaunch the executable using the `run command` from your `Makefile`
 
 Install `deno` and `gccwatcher`:
 ```bash
